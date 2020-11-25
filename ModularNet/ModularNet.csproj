@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Examples\Ideasky.Application\Ideasky.Application.csproj" />
+    <ProjectReference Include="..\Examples\Ideasky.Domain.EntityFrameworkCore\Ideasky.Domain.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Ideasky.Modular\Ideasky.Modular.csproj" />
+  </ItemGroup>
+
+</Project>

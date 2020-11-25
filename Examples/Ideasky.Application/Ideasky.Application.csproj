@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Ideasky.Modular\Ideasky.Modular.csproj" />
+    <ProjectReference Include="..\Ideasky,Application.Contracts\Ideasky,Application.Contracts.csproj" />
+    <ProjectReference Include="..\Ideasky.Domain\Ideasky.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
